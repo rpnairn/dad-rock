@@ -1,0 +1,179 @@
+body {
+   font-family: 'Press Start 2P', cursive;
+   background-image: url(IMG/grass2.png);
+   color: #e2e2e2;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+header {
+   background-color: #00bcd4;
+   color: white;
+   padding: 20px 0;
+   text-align: center;
+   width: 100%;
+}
+
+header h1 {
+   font-size: 40px;
+   margin-bottom: 10px;
+}
+
+nav ul {
+   list-style: none;
+}
+
+nav ul li {
+   display: inline;
+   margin: 0 15px;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+   font-size: 19px;
+}
+
+main {
+   padding: 20px;
+   text-align: center;
+}
+
+.ipod-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.ipod {
+   width: 200px;
+   height: 300px;
+   background-color: #333;
+   border-radius: 15px;
+   margin-bottom: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 10px;
+   padding-top: 20px;
+}
+
+.screen {
+   background-color: black;
+   color: white;
+   width: 100%;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+}
+
+.scroll-wheel {
+   width: 40px;
+   height: 40px;
+   background-color: #ff4081;
+   border-radius: 50%;
+   margin: 10px auto;
+}
+
+.albums {
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+}
+
+.album {
+   background-color: #333333;
+   padding: 10px;
+   color: white;
+   border-radius: 5px;
+   font-size: 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   width: 200px;
+   height: 300px;
+   box-sizing: border-box;
+}
+
+.album-box {
+   width: 100%;
+   height: 100%;
+   padding: 0;
+   margin-bottom: 10px;
+   color: white;
+   font-size: 19px;
+   border-radius: 5px;
+   font-weight: bold;
+   overflow: hidden;
+   position: relative;
+}
+
+.album-image {
+   width: 100%;
+   height: 100%;
+   object-position: center;
+}
+
+
+.album-text {
+   margin-top: 10px;
+}
+
+.timeline-container {
+   background-color: #222;
+   padding: 20px;
+   border-radius: 8px;
+   margin-top: 30px;
+   text-align: left;
+}
+
+.timeline-container h2 {
+   font-size: 32px;
+   color: #ff4081;
+   margin-bottom: 20px;
+}
+
+.timeline-event {
+   background-color: #333;
+   color: #e2e2e2;
+   margin-bottom: 15px;
+   padding: 15px;
+   border-radius: 5px;
+   text-align: left;
+   line-height: 25px;
+}
+
+.timeline-event h3 {
+   font-size: 24px;
+   color: #00bcd4;
+}
+
+.timeline-event p {
+   font-size: 16px;
+   margin-left: 20px;
+}
+
+.logo {
+   position: absolute;
+   top: 25px;
+   left: 10px;
+   width: 100px;
+   height: auto;
+}
+
+footer {
+   text-align: center;
+   background-color: #333;
+   color: white;
+   padding: 10px;
+   margin-top: 20px;
+}
+
+footer p {
+   font-size: 16px;
+}
